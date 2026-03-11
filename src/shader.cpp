@@ -29,18 +29,21 @@ shader::shader(const char* vertex_path, const char* fragment_path)
   const char* fragment_shader_source = fragment_code.c_str(); 
 
   uint32_t vertex_shader, fragment_shader;
-  vertex_shader = glCreateShader(GL_VERTEX_SHADER);
-  glShaderSource(vertex_shader, 1, &vertex_shader_source, nullptr);
-  glCompileShader(vertex_shader);
+    vertex_shader = glCreateShader(GL_VERTEX_SHADER);
+    glShaderSource(vertex_shader, 1, &vertex_shader_source, nullptr);
+    glCompileShader(vertex_shader);
+    check_compile_errors(vertex_shader, "VERTEX");
 
-  fragment_shader = glCreateShader(GL_FRAGMENT_SHADER);
-  glShaderSource(fragment_shader, 1, &fragment_shader_source, nullptr);
-  glCompileShader(fragment_shader);
+    fragment_shader = glCreateShader(GL_FRAGMENT_SHADER);
+    glShaderSource(fragment_shader, 1, &fragment_shader_source, nullptr);
+    glCompileShader(fragment_shader);
+    check_compile_errors(fragment_shader, "FRAGMENT");
 
-  id = glCreateProgram();
-  glAttachShader(id, vertex_shader);
-  glAttachShader(id, fragment_shader);
-  glLinkProgram(id); 
+    id = glCreateProgram();
+    glAttachShader(id, vertex_shader);
+    glAttachShader(id, fragment_shader);
+    glLinkProgram(id); 
+    check_compile_errors(id, "PROGRAM");
 
   glDeleteShader(vertex_shader);
   glDeleteShader(fragment_shader);
@@ -82,4 +85,9 @@ void shader::check_compile_errors(unsigned int shader, const std::string& type) 
                       << type << "\n" << infoLog << "\n";
         }
     }
+}
+
+uint32_t shader::get()
+{
+  return id;
 }

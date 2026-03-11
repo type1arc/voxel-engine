@@ -1,9 +1,13 @@
 #version 330 core
-in vec3 vertexColor;   // input from vertex shader
-out vec4 FragColor;    // output color
 
-void main()
-{
-    FragColor = vec4(vertexColor, 1.0);
+in vec3 FragPos;   // from vertex shader
+in vec3 Normal;    // not used here
+
+out vec4 FragColor;
+
+void main() {
+    // Normalize position to keep values in [0,1]
+    vec3 color = normalize(FragPos);
+    FragColor = vec4(abs(color), 1.0);
 }
 

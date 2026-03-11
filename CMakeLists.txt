@@ -30,6 +30,7 @@ add_executable(${PROJECT_NAME}
     src/main.cpp
     src/framework.cpp
     src/shader.cpp
+    src/terrain.cpp
 )
 
 # Include directories (add your own headers under include/)
