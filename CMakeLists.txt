@@ -31,6 +31,7 @@ add_executable(${PROJECT_NAME}
     src/framework.cpp
     src/shader.cpp
     src/terrain.cpp
+    src/camera.cpp
 )
 
 # Include directories (add your own headers under include/)

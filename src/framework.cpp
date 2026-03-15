@@ -6,7 +6,7 @@ framework::framework()
       if (!glfwInit())
         std::cerr << "GLFW initialization failure" << std::endl; 
 
-      window = glfwCreateWindow(800, 600, "voxel", nullptr, nullptr);
+      window = glfwCreateWindow(global::scr_width, global::scr_height, "voxel", nullptr, nullptr);
       if (!window)
       {
         std::cerr << "Framework: Window context creation failure.";
