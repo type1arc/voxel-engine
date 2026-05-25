@@ -1,0 +1,7 @@
+{
+	"InstallScripta" : 
+	[
+		"/home/typeiso/pproj/voxel-engine/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

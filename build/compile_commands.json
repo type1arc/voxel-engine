@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/home/typeiso/pproj/voxel-engine/build",
+  "command": "/usr/sbin/cc  -I/home/typeiso/pproj/voxel-engine/third_party/glad/include -std=c11 -o CMakeFiles/glad.dir/third_party/glad/src/gl.c.o -c /home/typeiso/pproj/voxel-engine/third_party/glad/src/gl.c",
+  "file": "/home/typeiso/pproj/voxel-engine/third_party/glad/src/gl.c",
+  "output": "CMakeFiles/glad.dir/third_party/glad/src/gl.c.o"
+},
+{
+  "directory": "/home/typeiso/pproj/voxel-engine/build",
+  "command": "/usr/sbin/c++  -I/home/typeiso/pproj/voxel-engine/include -I/home/typeiso/pproj/voxel-engine/third_party/glad/include -std=c++17 -o CMakeFiles/voxel-engine.dir/src/main.cpp.o -c /home/typeiso/pproj/voxel-engine/src/main.cpp",
+  "file": "/home/typeiso/pproj/voxel-engine/src/main.cpp",
+  "output": "CMakeFiles/voxel-engine.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/typeiso/pproj/voxel-engine/build",
+  "command": "/usr/sbin/c++  -I/home/typeiso/pproj/voxel-engine/include -I/home/typeiso/pproj/voxel-engine/third_party/glad/include -std=c++17 -o CMakeFiles/voxel-engine.dir/src/framework.cpp.o -c /home/typeiso/pproj/voxel-engine/src/framework.cpp",
+  "file": "/home/typeiso/pproj/voxel-engine/src/framework.cpp",
+  "output": "CMakeFiles/voxel-engine.dir/src/framework.cpp.o"
+},
+{
+  "directory": "/home/typeiso/pproj/voxel-engine/build",
+  "command": "/usr/sbin/c++  -I/home/typeiso/pproj/voxel-engine/include -I/home/typeiso/pproj/voxel-engine/third_party/glad/include -std=c++17 -o CMakeFiles/voxel-engine.dir/src/shader.cpp.o -c /home/typeiso/pproj/voxel-engine/src/shader.cpp",
+  "file": "/home/typeiso/pproj/voxel-engine/src/shader.cpp",
+  "output": "CMakeFiles/voxel-engine.dir/src/shader.cpp.o"
+},
+{
+  "directory": "/home/typeiso/pproj/voxel-engine/build",
+  "command": "/usr/sbin/c++  -I/home/typeiso/pproj/voxel-engine/include -I/home/typeiso/pproj/voxel-engine/third_party/glad/include -std=c++17 -o CMakeFiles/voxel-engine.dir/src/terrain.cpp.o -c /home/typeiso/pproj/voxel-engine/src/terrain.cpp",
+  "file": "/home/typeiso/pproj/voxel-engine/src/terrain.cpp",
+  "output": "CMakeFiles/voxel-engine.dir/src/terrain.cpp.o"
+},
+{
+  "directory": "/home/typeiso/pproj/voxel-engine/build",
+  "command": "/usr/sbin/c++  -I/home/typeiso/pproj/voxel-engine/include -I/home/typeiso/pproj/voxel-engine/third_party/glad/include -std=c++17 -o CMakeFiles/voxel-engine.dir/src/camera.cpp.o -c /home/typeiso/pproj/voxel-engine/src/camera.cpp",
+  "file": "/home/typeiso/pproj/voxel-engine/src/camera.cpp",
+  "output": "CMakeFiles/voxel-engine.dir/src/camera.cpp.o"
+}
+]

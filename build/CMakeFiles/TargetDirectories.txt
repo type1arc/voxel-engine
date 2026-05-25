@@ -1,0 +1,4 @@
+/home/typeiso/pproj/voxel-engine/build/CMakeFiles/glad.dir
+/home/typeiso/pproj/voxel-engine/build/CMakeFiles/voxel-engine.dir
+/home/typeiso/pproj/voxel-engine/build/CMakeFiles/edit_cache.dir
+/home/typeiso/pproj/voxel-engine/build/CMakeFiles/rebuild_cache.dir
